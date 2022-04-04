@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  font-family: "Anton", sans-serif;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  position: relative;
+}
+
+.menu {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.menu ul li {
+  margin-right: 10px;
+}
+
+.navlogo {
+  width: 6%;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.381);
+  border-radius: 100%;
+}
+
+.menu ul li a {
+  font-size: 180%;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  transition: 0.8s all;
+  padding: 5px 5px;
+}
+
+nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.394);
+  border-radius: 10px;
+}
+
+[href] {
+  text-decoration: none;
+}
+
+.socialmedia {
+  margin-right: 10px;
+}
+
+a:visited {
+  color: white;
+}
+
+
+.trayectoria-contendor{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.contenedor-trayectoria{
+  display: flex;
+  margin: 0 15%;
+}
+
+.espaciado{
+  margin-bottom: 40px;
+}
+
+.imagen img{
+  width: 300px;
+}
+
+.imagen{
+  margin-right: 20px;
+}
+
+.imagen img{
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.381);
+}
+
+.mapa{
+  display: inline-block;
+  margin-right: 100px;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.mapa iframe{
+  width:200px;
+  height:200px;
+}
+
+.about{
+  display: inline-block;
+  margin-right: 100px;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.about p{
+  width: 200px;
+}
+
+.rrss{
+  display: inline-block;
+  margin-right: 100px;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.rrss img{
+  width: 200px;
+}
+
+.copyright{
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-shadow: 2px 2px 2px #000000;
+  padding-bottom: 40px;
+}
+
+.copyright p{
+  text-align: center;
+}
+
+.footer{
+display: flex;
+margin: 0px 17%;
+padding: 15px 0px;
+}
+
+footer{
+  background-color: #00000072;
+  box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.381);
+  border-radius: 300px 0px 0px 0px;
+  
+
+}
+
+
+
+
+
+
+
+
+
